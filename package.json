@@ -1,0 +1,21 @@
+{
+  "name": "hsk-server",
+  "version": "1.0.0",
+  "description": "the back end for the HSK quiz app, storing quiz data on an SQLite database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "lictor guzman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "knex": "^0.21.17",
+    "sqlite3": "^5.0.1"
+  }
+}
